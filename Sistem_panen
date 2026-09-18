@@ -1,0 +1,39 @@
+# Program Penghitung Total Hasil Panen
+# Sistem Panen Sederhana
+
+print("======================================")
+print("       SISTEM PENGHITUNG PANEN")
+print("======================================")
+
+# Fungsi untuk menghitung total hasil panen
+def hitung_total_panen(padi, jagung, kedelai):
+    total_panen = padi + jagung + kedelai
+    return total_panen
+
+
+# Data hasil panen masing-masing tanaman
+hasil_panen_padi = 250
+hasil_panen_jagung = 175
+hasil_panen_kedelai = 125
+
+# Menghitung total seluruh hasil panen
+total_hasil_panen = hitung_total_panen(
+    hasil_panen_padi,
+    hasil_panen_jagung,
+    hasil_panen_kedelai
+)
+
+# Menampilkan data hasil panen
+print("Data Hasil Panen:")
+print("--------------------------------------")
+print("Hasil panen padi    :", hasil_panen_padi, "kg")
+print("Hasil panen jagung  :", hasil_panen_jagung, "kg")
+print("Hasil panen kedelai :", hasil_panen_kedelai, "kg")
+print("--------------------------------------")
+
+# Menampilkan total hasil panen
+print("Total hasil panen   :", total_hasil_panen, "kg")
+
+print("======================================")
+print("     PERHITUNGAN SELESAI")
+print("======================================")
